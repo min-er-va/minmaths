@@ -1,4 +1,11 @@
-Algorithm
+#Overview
+This is a small program to read in a string of natural language maths and execute it.
+Division is treated with the same precedence as multiplication.
+
+Supported symbols:
++   -   *   /   (   )
+
+#Algorithm
  - Read the expression from left to right
  - if X is a number, place X in the number stack
  - if X is an operator, evaluate operators until any of:
